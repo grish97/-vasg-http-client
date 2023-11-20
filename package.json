@@ -1,0 +1,30 @@
+{
+  "name": "@vasg/http-client",
+  "version": "0.0.1",
+  "type": "module",
+  "author": "Grisha Vasilyan",
+  "license": "ISC",
+  "main": "./dist/main.cjs.js",
+  "module": "./dist/main.es.js",
+  "typings": "./dist/main.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.5",
+    "@types/node": "^20.9.2",
+    "prettier": "^3.1.0",
+    "rollup-plugin-typescript-paths": "^1.4.0",
+    "tslib": "^2.6.2",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.2"
+  }
+}
