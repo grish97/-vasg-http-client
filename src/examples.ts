@@ -42,4 +42,5 @@ async function updateUser(userId: number) {
 
 getUsers();
 getPostsByUserId(1);
+updateUser(1);
 
