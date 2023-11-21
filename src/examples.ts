@@ -27,6 +27,19 @@ async function getPostsByUserId(userId: number) {
   });
 }
 
+async function updateUser(userId: number) {
+  return httpClient.put({
+    route: {
+      url: "users/:userId",
+      method: "PUT",
+      isRequiredAuth: false
+    },
+    replacements: {
+      userId: userId
+    }
+  });
+}
+
 getUsers();
 getPostsByUserId(1);
 
