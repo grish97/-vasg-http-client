@@ -33,7 +33,7 @@ async function getUsers() {
 }
 ```
 
-Code beloved shows how you can du GET request with dynamic paths. 
+Code beloved shows how you can do GET request with dynamic paths. 
 URL will be parsed uses replacements object values 
 ```typescript
 async function getPostsByUserId(userId: number) {
@@ -50,6 +50,7 @@ async function getPostsByUserId(userId: number) {
 }
 ```
 
+And PUT request example
 ```typescript
 async function updateUser(userId: number) {
   return httpClient.put({
@@ -64,6 +65,9 @@ async function updateUser(userId: number) {
   });
 }
 ```
+
+Also I will suggest to have separate file
+where you can define and use all your routes.
 
 You can find examples on ``src/examples.ts`` file
 

@@ -1,6 +1,6 @@
 {
   "name": "@vasg/http-client",
-  "version": "0.0.1",
+  "version": "0.0.7",
   "type": "module",
   "author": "Grisha Vasilyan",
   "license": "ISC",
